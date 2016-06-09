@@ -1,0 +1,28 @@
+{
+  "name": "electron-connect-webpack-plugin",
+  "version": "0.1.0",
+  "description": "electron-connect integration for webpack.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuy/electron-connect-webpack-plugin.git"
+  },
+  "homepage": "https://github.com/kuy/electron-connect-webpack-plugin",
+  "bugs": "https://github.com/kuy/electron-connect-webpack-plugin/issues",
+  "authors": [
+    "Yuki Kodama <endflow.net@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "electron",
+    "electron-connect"
+  ],
+  "peerDependencies": {
+    "electron-connect": "^0.4.2",
+    "webpack": "^1.x"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
