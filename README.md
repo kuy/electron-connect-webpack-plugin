@@ -10,7 +10,9 @@
 npm install --save-dev electron-connect-webpack-plugin
 ```
 
-## Setup
+## Usage
+
+### 1. Add plugin to `webpack.config.js`
 
 ```
 var ElectronConnectWebpackPlugin = require('electron-connect-webpack-plugin');
@@ -25,6 +27,12 @@ module.exports = {
 
   // ...
 };
+```
+
+### 2. Start webpack with watch option
+
+```
+$ webpack --watch
 ```
 
 ## Changelog
