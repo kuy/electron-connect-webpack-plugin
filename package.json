@@ -1,6 +1,6 @@
 {
   "name": "electron-connect-webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "electron-connect integration for webpack.",
   "main": "./index.js",
   "repository": {
