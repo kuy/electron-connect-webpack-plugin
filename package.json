@@ -19,10 +19,6 @@
     "electron",
     "electron-connect"
   ],
-  "peerDependencies": {
-    "electron-connect": "^0.4.2",
-    "webpack": "^1.x"
-  },
   "devDependencies": {},
   "dependencies": {}
 }
