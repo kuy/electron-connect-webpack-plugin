@@ -16,13 +16,17 @@ npm install --save-dev electron-connect-webpack-plugin
 
 ```
 var ElectronConnectWebpackPlugin = require('electron-connect-webpack-plugin');
+var path = require("path");
 
 module.exports = {
   // ...
 
   plugins: [
     // ...
-    new ElectronConnectWebpackPlugin(),
+    new ElectronConnectWebpackPlugin({
+      path:path.join(__dirname, "dist"),
+      logLevel: 0
+    }),
   ]
 
   // ...
