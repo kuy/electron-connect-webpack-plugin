@@ -26,7 +26,9 @@ module.exports = {
     new ElectronConnectWebpackPlugin({
       path:path.join(__dirname, "dist"),
       logLevel: 0,
-      reload: false //set to true if electron should be reloaded, instead of the entire instance restarted
+      reload: false // set to true if electron should be reloaded, instead of the entire instance restarted
+                    // if used, you'll need to add "require('electron-connect').client.create()" to your renderer,
+                    // or "require('electron-connect').client.create(mainWindow)" in the main process
     }),
   ]
 
