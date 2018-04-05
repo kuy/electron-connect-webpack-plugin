@@ -20,7 +20,7 @@ ElectronConnectWebpackPlugin.prototype.apply = function(compiler) {
       server = electron.create(self.options);
       server.start();
     } else {
-      if(reload) server.reload() else server.restart();
+      if(reload) server.reload(); else server.restart();
     }
   }
 
