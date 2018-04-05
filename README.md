@@ -25,7 +25,8 @@ module.exports = {
     // ...
     new ElectronConnectWebpackPlugin({
       path:path.join(__dirname, "dist"),
-      logLevel: 0
+      logLevel: 0,
+      reload: false //set to true if electron should be reloaded, instead of the entire instance restarted
     }),
   ]
 
